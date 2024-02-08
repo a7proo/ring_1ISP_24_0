@@ -1,0 +1,24 @@
+var x = parseFloat(prompt("Дoбро пожаловать в калькулятор сложения двух чисел \n Пожадуйста введите число"))
+var y = parseFloat(prompt("Введите второе число")
+var otvet = x+y
+console.log("Сумма чисел", x, "и", y, "Ваш ответ = ", otvet)
+
+var x = parseFloat(prompt("Дoбро пожаловать в калькулятор вычитания двух чисел \n Пожадуйста введите число"))
+var y = parseFloat(prompt("Введите второе число")
+var otvet = x-y
+console.log("Разность чисел", x, "и", y, "Ваш ответ = ", otvet)
+
+var x = parseFloat(prompt("Дoбро пожаловать в калькулятор умножения двух чисел \n Пожадуйста введите число"))
+var y = parseFloat(prompt("Введите второе число")
+var otvet = x*y
+console.log("Умножения чисел", x, "и", y, "Ваш ответ = ", otvet)
+
+var x = parseFloat(prompt("Дoбро пожаловать в калькулятор Деления двух чисел \n Пожадуйста введите число"))
+var y = parseFloat(prompt("Введите второе число")
+var otvet = x/y
+console.log("Деление чисел", x, "и", y, "Ваш ответ = ", otvet)
+
+var x = parseFloat(prompt("Дoбро пожаловать в калькулятор деления двух чисел с остатком \n Пожадуйста введите число"))
+var y = parseFloat(prompt("Введите второе число")
+var otvet = x%y
+console.log("Деление чисел с остатком", x, "и", y, "Ваш ответ = ", otvet)
